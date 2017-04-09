@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="librarian.controllers.404"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<MessagePage
+		title="{i18n&gt;404.title}"
+		text="{i18n&gt;404.text}"
+		description="{i18n&gt;404.description}"
+		showNavButton="true"
+		navButtonPress="onNavBack" />
+</mvc:View>

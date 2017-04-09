@@ -1,0 +1,25 @@
+{
+  "name": "report-menu",
+  "version": "1.0.0",
+  "description": " A UI5 menu for the reports available to business.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcynum/report-menu.git"
+  },
+  "author": "Chris Hamilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcynum/report-menu/issues"
+  },
+  "homepage": "https://github.com/arcynum/report-menu#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}

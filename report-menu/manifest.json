@@ -1,0 +1,65 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "Report Menu",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{application.title}}",
+		"description": "{{application.description}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "report-menu.views.Application",
+			"type": "XML"
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "report-menu.i18n.i18n"
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "report-menu.views",
+				"controlId": "app-id",
+				"controlAggregation": "pages",
+				"transition": "show",
+				"bypassed": {
+					"target": "404"
+				}
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "Home",
+				"target": "Home"
+			}],
+			"targets": {
+				"Home": {
+					"viewName": "Home",
+					"viewLevel": 1
+				}
+			}
+		}
+	}
+}
