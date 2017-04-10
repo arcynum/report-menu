@@ -4,7 +4,7 @@ sap.ui.define([
 ], function(AbstractController, History) {
 	"use strict";
 	
-	return AbstractController.extend("librarian.controllers.404", {
+	return AbstractController.extend("report-menu.controllers.404", {
 
 		onInit: function() {
 		},

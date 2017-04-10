@@ -5,7 +5,7 @@
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:core="sap.ui.core"
-	controllerName="librarian.controllers.Home">
+	controllerName="report-menu.controllers.Home">
 	<Page title="{i18n&gt;home.title}">
 		<content>
 			<TileContainer

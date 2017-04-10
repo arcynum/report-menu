@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="librarian.controllers.404"
+	controllerName="report-menu.controllers.404"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<MessagePage

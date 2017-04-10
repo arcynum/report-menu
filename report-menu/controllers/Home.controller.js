@@ -4,11 +4,11 @@ sap.ui.define([
 ], function(AbstractController, JSONModel) {
 	"use strict";
 	
-	return AbstractController.extend("librarian.controllers.Home", {
+	return AbstractController.extend("report-menu.controllers.Home", {
 
 		onInit: function() {
 			// Bind the JSON object.
-			let roles = new JSONModel("librarian/models/roles.json");
+			let roles = new JSONModel("report-menu/models/roles.json");
 			this.getView().setModel(roles, "RoleModel");
 		},
 

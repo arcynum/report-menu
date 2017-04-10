@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(AbstractController) {
 	"use strict";
 	
-	return AbstractController.extend("librarian.controllers.Success", {
+	return AbstractController.extend("report-menu.controllers.Success", {
 
 		onInit: function() {
 		},

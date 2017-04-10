@@ -1,5 +1,5 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
 	"use strict";
 	
-	return Controller.extend("librarian.controllers.Application", {});
+	return Controller.extend("report-menu.controllers.Application", {});
 });

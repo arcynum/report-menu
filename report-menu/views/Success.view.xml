@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="librarian.controllers.Success"
+	controllerName="report-menu.controllers.Success"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<MessagePage
