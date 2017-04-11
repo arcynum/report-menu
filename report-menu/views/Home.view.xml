@@ -12,14 +12,11 @@
 			<Panel>
 				<headerToolbar>
 					<Toolbar>
-						<Title text="{ReportModel&gt;/reports/0/title}" />
-						<ToolbarSpacer />
-						<Button text="Open Report" icon="{ReportModel&gt;/reports/0/icon}" />
+						<Title text="List of reports available" />
 					</Toolbar>
 				</headerToolbar>
 				<content>
-					<Text text="{ReportModel&gt;/reports/0/description}" />
-					<List headerText="Key Sections" items="{ReportModel&gt;/reports/0/sections}">
+					<List items="{ReportModel&gt;/reports}">
 						<StandardListItem type="Active" title="{ReportModel&gt;title}" description="{ReportModel&gt;description}" press="onTilePress" />
 					</List>
 				</content>

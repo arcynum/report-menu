@@ -2,8 +2,6 @@
 	"reports": [{
 		"title": "Progress Reports - Executive Summary",
 		"description": "Words",
-		"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Executive Summary.xlsx",
-		"icon": "sap-icon://chain-link",
 		"sections": [{
 			"title": "Access, pre-planning and planning progress - Jurisdictional level",
 			"description": "Summary of number of transition participants with access met, commenced planning and plan arppovals by jurisdiction.",
@@ -12,6 +10,30 @@
 			"title": "Progress against Bilateral targets - Jurisdictional level",
 			"description": "Summary of plan approvals against end of quarter bilateral targets by jurisdiction. This table also calculates the weekly approval rate needed to reach end of quarter targets.",
 			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Executive Summary.xlsx#ExS_S2"
+		}]
+	}, {
+		"title": "Progress Reports - Regional Summary",
+		"description": "Words",
+		"sections": [{
+			"title": "Access, pre-planning and planning progress - Region level",
+			"description": "Summary of number of transition participants with access met, commenced planning and plan arppovals by region.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+		}, {
+			"title": "Progress against Bilateral targets - Region level",
+			"description": "Summary of plan approvals against end of quarter bilateral targets by region. This table also calculates the weekly approval rate needed to reach end of quarter targets.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+		}]
+	}, {
+		"title": "Participant Lists - By State",
+		"description": "Words",
+		"sections": [{
+			"title": "Access, pre-planning and planning progress - Region level",
+			"description": "Summary of number of transition participants with access met, commenced planning and plan arppovals by region.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+		}, {
+			"title": "Progress against Bilateral targets - Region level",
+			"description": "Summary of plan approvals against end of quarter bilateral targets by region. This table also calculates the weekly approval rate needed to reach end of quarter targets.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
 		}]
 	}]
 }
