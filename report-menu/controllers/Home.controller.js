@@ -19,6 +19,18 @@ sap.ui.define([
 			// window.open(value.href, "_blank");
 		},
 
+		onReportPress: function(event) {
+			let path = event.getSource().getBindingContext("ReportModel").getPath();
+			let rid = path.match(/(\d+)/g);
+
+			if (rid !== null) {
+				this.getRouter().navTo("Report", {
+					id: rid[0]
+				});
+			}
+			
+		},
+
 	});
 
 });

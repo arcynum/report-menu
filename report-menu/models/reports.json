@@ -25,15 +25,39 @@
 		}]
 	}, {
 		"title": "Participant Lists - By State",
-		"description": "Words",
+		"description": "Complete lists of participants broken down by state.",
 		"sections": [{
-			"title": "Access, pre-planning and planning progress - Region level",
-			"description": "Summary of number of transition participants with access met, commenced planning and plan arppovals by region.",
-			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+			"title": "ACT Participant List",
+			"description": "Complete list of participants who reside in the ACT.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - ACT - Participant list.xlsx"
 		}, {
-			"title": "Progress against Bilateral targets - Region level",
-			"description": "Summary of plan approvals against end of quarter bilateral targets by region. This table also calculates the weekly approval rate needed to reach end of quarter targets.",
-			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+			"title": "NSW Participant List",
+			"description": "Complete list of participants who reside in NSW.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - NSW - Participant list.xlsx"
+		}, {
+			"title": "NT Participant List",
+			"description": "Complete list of participants who reside in the NT.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - NT - Participant list.xlsx"
+		}, {
+			"title": "QLD Participant List",
+			"description": "Complete list of participants who reside in QLD.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - QLD - Participant list.xlsx"
+		}, {
+			"title": "SA Participant List",
+			"description": "Complete list of participants who reside in SA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - SA - Participant list.xlsx"
+		}, {
+			"title": "TAS Participant List",
+			"description": "Complete list of participants who reside in TAS.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - TAS - Participant list.xlsx"
+		}, {
+			"title": "VIC Participant List",
+			"description": "Complete list of participants who reside in VIC.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - VIC - Participant list.xlsx"
+		}, {
+			"title": "WA Participant List",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - WA - Participant list.xlsx"
 		}]
 	}]
 }

@@ -17,7 +17,7 @@
 				</headerToolbar>
 				<content>
 					<List items="{ReportModel&gt;/reports}">
-						<StandardListItem type="Active" title="{ReportModel&gt;title}" description="{ReportModel&gt;description}" press="onTilePress" />
+						<StandardListItem type="Active" title="{ReportModel&gt;title}" description="{ReportModel&gt;description}" press="onReportPress" />
 					</List>
 				</content>
 			</Panel>

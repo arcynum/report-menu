@@ -6,11 +6,11 @@ sap.ui.define([
 
 	return Controller.extend("report-menu.controllers.BaseController", {
 
-		getRouter : function () {
+		getRouter: function () {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		},
 
-		onNavBack: function (oEvent) {
+		onNavBack: function(event) {
 			let history;
 			let previousHash;
 			history = History.getInstance();

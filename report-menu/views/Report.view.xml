@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<mvc:View
+	xmlns="sap.m"
+	xmlns:template="sap.ui.core.template"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	controllerName="report-menu.controllers.Report">
+
+	<Page title="{i18n&gt;home.title}">
+		<content>
+			<Panel headerText="{ReportModel&gt;title}">
+				<content>
+					<Title text="{ReportModel&gt;description}" />
+					<List items="{ReportModel&gt;sections}">
+						<StandardListItem type="Active" title="{ReportModel&gt;title}" description="{ReportModel&gt;description}" press="onSectionPress" />
+					</List>
+				</content>
+			</Panel>
+		</content>
+	</Page>
+
+</mvc:View>
