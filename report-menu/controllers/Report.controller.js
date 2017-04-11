@@ -21,6 +21,7 @@ sap.ui.define([
 			let path = event.getSource().getBindingContext("ReportModel").getPath();
 			let value = this.getView().getModel("ReportModel").getProperty(path);
 			MessageToast.show(value.href);
+			// window.open(value.href, "_blank");
 		},
 
 		_routeMatched: function(event) {

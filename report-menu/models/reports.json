@@ -22,6 +22,26 @@
 			"title": "Progress against Bilateral targets - Region level",
 			"description": "Summary of plan approvals against end of quarter bilateral targets by region. This table also calculates the weekly approval rate needed to reach end of quarter targets.",
 			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#ExSReg_S1"
+		}, {
+			"title": "Access - Progress - Region",
+			"description": "Summary of participant access decision milestone according to pathway into scheme.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#RegS_S1"
+		}, {
+			"title": "Planning - progress - Region",
+			"description": "Summary of participant planning milestone according to participant planning stream.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#RegS_S2"
+		}, {
+			"title": "Progress against Bilateral targets - Region level",
+			"description": "Summary of weekly approvals against bilateral target as well as per FTE.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#RegS_S3"
+		}, {
+			"title": "Region - Week to week - Performance against bilateral targets",
+			"description": "Graphical representation of plan approval activity against bilateral targets either on an actual or cumulative basis.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#RegS_S4"
+		}, {
+			"title": "Plan reviews - Region",
+			"description": "Summary of plan reviews that have been completed as well as plan reviews that are upcoming.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Progress reports - Regional Summary.xlsx#RegS_S5"
 		}]
 	}, {
 		"title": "Participant Lists - By State",
@@ -58,6 +78,74 @@
 			"title": "WA Participant List",
 			"description": "Complete list of participants who reside in WA.",
 			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\State lists\\State - WA - Participant list.xlsx"
+		}]
+	}, {
+		"title": "Participant Lists - By Region",
+		"description": "Complete lists of participants broken down by region.",
+		"sections": [{
+			"title": "Regional - Australian Capital Territory - Participant list",
+			"description": "Complete List of Participants who reside in the Region of Australian Capital Territory.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - Australian Capital Territory - Participant list.xlsx"
+		}, {
+			"title": "Regional - Missing - Participant list",
+			"description": "Complete list of participants who reside in NSW.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - Missing - Participant list.xlsx"
+		}, {
+			"title": "Regional - Northern Territory - Participant list",
+			"description": "Complete list of participants who reside in the NT.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - Northern Territory - Participant list.xlsx"
+		}, {
+			"title": "Regional - NSW Central - Participant list",
+			"description": "Complete list of participants who reside in QLD.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - NSW Central - Participant list.xlsx"
+		}, {
+			"title": "Regional - NSW North - Participant list",
+			"description": "Complete list of participants who reside in SA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - NSW North - Participant list.xlsx"
+		}, {
+			"title": "Regional - NSW South - Participant list",
+			"description": "Complete list of participants who reside in TAS.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - NSW South - Participant list.xlsx"
+		}, {
+			"title": "Regional - NSW Sydney - Participant list",
+			"description": "Complete list of participants who reside in VIC.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - NSW Sydney - Participant list.xlsx"
+		}, {
+			"title": "Regional - QLD Central - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - QLD Central - Participant list.xlsx"
+		}, {
+			"title": "Regional - QLD North - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - QLD North - Participant list.xlsx"
+		}, {
+			"title": "Regional - QLD South - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - QLD South - Participant list.xlsx"
+		}, {
+			"title": "Regional - South Australia - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - South Australia - Participant list.xlsx"
+		}, {
+			"title": "Regional - Tasmania - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - Tasmania - Participant list.xlsx"
+		}, {
+			"title": "Regional - VIC East - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - VIC East - Participant list.xlsx"
+		}, {
+			"title": "Regional - VIC North - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - VIC North - Participant list.xlsx"
+		}, {
+			"title": "Regional - VIC West - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - VIC West - Participant list.xlsx"
+		}, {
+			"title": "Regional - Western Australia - Participant list",
+			"description": "Complete list of participants who reside in WA.",
+			"href": "R:\\Secured\\OPERATIONAL_REPORTING\\Progress reports\\Regional summary\\Regional lists\\Regional - Western Australia - Participant list.xlsx"
 		}]
 	}]
 }
