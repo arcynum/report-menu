@@ -16,7 +16,7 @@ sap.ui.define([
 			let path = event.getSource().getBindingContext("ReportModel").getPath();
 			let value = this.getView().getModel("ReportModel").getProperty(path);
 			// this.getRouter().navTo(value.href);
-			window.open(value.href, "_blank");
+			// window.open(value.href, "_blank");
 		},
 
 	});

@@ -9,27 +9,19 @@
 
 	<Page title="{i18n&gt;home.title}">
 		<content>
-			<Panel content="{ReportModel&gt;/reports}">
+			<Panel>
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{ReportModel&gt;/reports/0/title}" />
+						<ToolbarSpacer />
+						<Button text="Open Report" icon="{ReportModel&gt;/reports/0/icon}" />
+					</Toolbar>
+				</headerToolbar>
 				<content>
-					<Panel>
-						<headerToolbar>
-							<Toolbar>
-								<Title text="{ReportModel&gt;title}" />
-								<ToolbarSpacer />
-								<Button icon="{ReportModel&gt;icon}" />
-							</Toolbar>
-						</headerToolbar>
-						<content>
-							<Text text="{ReportModel&gt;description}" />
-
-							<Panel headerText="Wut" content="{ReportModel&gt;sections}">
-								<content>
-									<Text text="{ReportModel&gt;description}" />
-								</content>
-							</Panel>
-
-						</content>
-					</Panel>
+					<Text text="{ReportModel&gt;/reports/0/description}" />
+					<List headerText="Key Sections" items="{ReportModel&gt;/reports/0/sections}">
+						<StandardListItem type="Active" title="{ReportModel&gt;title}" description="{ReportModel&gt;description}" press="onTilePress" />
+					</List>
 				</content>
 			</Panel>
 		</content>
