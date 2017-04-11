@@ -10,12 +10,12 @@
 		<content>
 			<TileContainer
 				id="role-selection"
-				tiles="{RoleModel&gt;/roles}">
+				tiles="{ReportModel&gt;/reports}">
 				<StandardTile
-					name="{RoleModel&gt;name}"
-					icon="{RoleModel&gt;icon}"
+					name="{ReportModel&gt;title}"
+					icon="{ReportModel&gt;icon}"
 					type="Monitor"
-					title="{RoleModel&gt;description}"
+					title="{ReportModel&gt;description}"
 					press="onTilePress" />
 			</TileContainer>
 		</content>

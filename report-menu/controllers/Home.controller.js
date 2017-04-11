@@ -8,14 +8,15 @@ sap.ui.define([
 
 		onInit: function() {
 			// Bind the JSON object.
-			let roles = new JSONModel("report-menu/models/roles.json");
-			this.getView().setModel(roles, "RoleModel");
+			let reports = new JSONModel("report-menu/models/reports.json");
+			this.getView().setModel(reports, "ReportModel");
 		},
 
 		onTilePress: function(event) {
-			let path = event.getSource().getBindingContext("RoleModel").getPath();
-			let value = this.getView().getModel("RoleModel").getProperty(path);
-			this.getRouter().navTo(value.href);
+			let path = event.getSource().getBindingContext("ReportModel").getPath();
+			let value = this.getView().getModel("ReportModel").getProperty(path);
+			// this.getRouter().navTo(value.href);
+			window.open(value.href, "_blank");
 		},
 
 	});
