@@ -44,7 +44,7 @@
 				"viewPath": "report-menu.views",
 				"controlId": "app-id",
 				"controlAggregation": "pages",
-				"transition": "show",
+				"transition": "slide",
 				"bypassed": {
 					"target": "404"
 				}
