@@ -11,12 +11,12 @@
     "url": "git+https://github.com/arcynum/report-menu.git"
   },
   "author": "Chris Hamilton",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/arcynum/report-menu/issues"
   },
   "homepage": "https://github.com/arcynum/report-menu#readme",
   "devDependencies": {
+    "http-server": "latest",
     "eslint": "^3.18.0",
     "eslint-config-standard": "^7.1.0",
     "eslint-plugin-promise": "^3.5.0",
